@@ -50,7 +50,7 @@ cd mi-pwa
 npm install
 ```
 
-## 💻 Uso
+## Uso
 
 ### Modo Desarrollo
 
