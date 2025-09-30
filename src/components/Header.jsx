@@ -1,7 +1,26 @@
-export default function Header() {
+function Header() {
   return (
-    <header style={{ background: "#4a90e2", color: "white", padding: "1rem" }}>
-      <h1>Mi PWA</h1>
+    <header className="header">
+      <div className="header-container">
+        <div className="logo-section">
+          <div className="logo">⚡</div>
+          <div className="brand">
+            <h1>PWA Store</h1>
+            <span className="tagline">Funciona sin límites</span>
+          </div>
+        </div>
+        
+        <div className="header-actions">
+          <button className="icon-btn" aria-label="Notificaciones">
+            🔔
+          </button>
+          <button className="icon-btn" aria-label="Usuario">
+            👤
+          </button>
+        </div>
+      </div>
     </header>
   );
 }
+
+export default Header;
